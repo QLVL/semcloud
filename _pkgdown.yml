@@ -1,5 +1,4 @@
-url: https://montesmariana.github.io/semcloud
-
+url: https://qlvl.github.io/semcloud/
 home:
   title: Create token-level clouds
   description: Post-processing of output from nephosem and semasioFlow
@@ -8,8 +7,7 @@ template:
   bootswatch: yeti
   theme: kate
   bslib:
-    primary: "#0266a0"
-
+    primary: '#0266a0'
 navbar:
   components:
     articles:
@@ -21,7 +19,6 @@ navbar:
         href: articles/weightConcordance.html
       - text: HDBSCAN in token-level clouds
         href: articles/HDBSCAN.html
-
 reference:
 - title: Open nephosem files
   desc: |

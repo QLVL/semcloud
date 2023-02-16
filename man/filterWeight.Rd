@@ -7,8 +7,8 @@
 filterWeight(
   weight_param,
   tid_data,
-  weight_filter_fun = function(weightparam) stringr::str_ends(weightparam, "no", negate
-    = TRUE),
+  weight_filter_fun = function(weightparam) stringr::str_ends(weightparam, "no", negate =
+    TRUE),
   weight_as_sup = FALSE,
   threshold = 0
 )

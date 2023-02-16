@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 The goal of semcloud is to process the output of the Python Workflow of
 the Nephological Semantics project
 (combining [nephosem](https://qlvl.github.io/nephosem)
-and [semasioFlow](https://montesmariana.github.io/semasioFlow))
+and [semasioFlow](https://qlvl.github.io/semasioFlow))
 and prepare it to be
 used with [NephoVis](https://qlvl.github.io/NephoVis).
 
@@ -31,7 +31,8 @@ used with [NephoVis](https://qlvl.github.io/NephoVis).
 You can install the github development version with:
 
 ``` r
-remotes::install_github("montesmariana/semcloud")
+# remotes::install_github("montesmariana/semcloud")
+remotes::install_github("qlvl/semcloud")
 ```
 
 ## Example
@@ -48,7 +49,7 @@ and use the output to classify clouds (clusters).
 To build vignettes when installing from GitHub run:
 
 ```r
-remotes::install_github("montesmariana/semcloud", build_vignettes = T)
+remotes::install_github("qlvl/semcloud", build_vignettes = T)
 ```
 
 

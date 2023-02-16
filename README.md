@@ -11,15 +11,16 @@
 The goal of semcloud is to process the output of the Python Workflow of
 the Nephological Semantics project (combining
 [nephosem](https://qlvl.github.io/nephosem) and
-[semasioFlow](https://montesmariana.github.io/semasioFlow)) and prepare
-it to be used with [NephoVis](https://qlvl.github.io/NephoVis).
+[semasioFlow](https://qlvl.github.io/semasioFlow)) and prepare it to be
+used with [NephoVis](https://qlvl.github.io/NephoVis).
 
 ## Installation
 
 You can install the github development version with:
 
 ``` r
-remotes::install_github("montesmariana/semcloud")
+# remotes::install_github("montesmariana/semcloud")
+remotes::install_github("qlvl/semcloud")
 ```
 
 ## Example
@@ -28,17 +29,17 @@ Instructions on how to go through the workflow can be found in a handful
 of vignettes, available in the Articles section or by calling
 `vignette()`:
 
--   `vignette('processClouds')` explains the steps from the output of
-    semasioFlow to the input of NephoVis;
--   `vignette('weightConcordance')` shows how to create tailored
-    contexts for Nephovis;
--   `vignette('HDBSCAN')` shows how to implement HDBSCAN clustering on
-    the models and use the output to classify clouds (clusters).
+- `vignette('processClouds')` explains the steps from the output of
+  semasioFlow to the input of NephoVis;
+- `vignette('weightConcordance')` shows how to create tailored contexts
+  for Nephovis;
+- `vignette('HDBSCAN')` shows how to implement HDBSCAN clustering on the
+  models and use the output to classify clouds (clusters).
 
 To build vignettes when installing from GitHub run:
 
 ``` r
-remotes::install_github("montesmariana/semcloud", build_vignettes = T)
+remotes::install_github("qlvl/semcloud", build_vignettes = T)
 ```
 
 ## License
